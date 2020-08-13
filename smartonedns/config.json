@@ -3,7 +3,7 @@
   "version": "0.1",
   "slug": "smartonedns",
   "description": "SmartOneDNS service with Let's Encrypt support",
-  "url": "https://github.com/home-assistant/hassio-addons/tree/master/duckdns",
+  "url": "https://github.com/blacksheepinc/SmartOne/edit/master/smartonedns",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "services",
   "boot": "auto",
@@ -36,5 +36,5 @@
     ],
     "seconds": "int"
   },
-  "image": "homeassistant/{arch}-addon-duckdns"
+  "image": "smartone/{arch}-addon-smartonedns"
 }
