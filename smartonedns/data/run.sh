@@ -10,6 +10,8 @@ LE_UPDATE="0"
 IPV4=$(bashio::config 'ipv4 // empty')
 IPV6=$(bashio::config 'ipv6 // empty')
 TOKEN=$(bashio::config 'token')
+LOGIN=$(bashio::config 'login')
+PASSWORD=$(bashio::config 'password')
 DOMAINS=$(bashio::config 'domains | join(",")')
 WAIT_TIME=$(bashio::config 'seconds')
 
