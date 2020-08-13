@@ -1,0 +1,8 @@
+---
+channel: stable
+addons:
+  smartonedns:
+    repository: smartone/smartonedns
+    target: smartonedns
+    image: hassioaddons/smartonedns-{arch}
+
