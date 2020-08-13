@@ -4,5 +4,5 @@ addons:
   smartonedns:
     repository: smartone/smartonedns
     target: smartonedns
-    image: hassioaddons/smartonedns-{arch}
+    image: smartoneaddons/smartonedns-{arch}
 
