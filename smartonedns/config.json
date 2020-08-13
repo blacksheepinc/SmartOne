@@ -35,6 +35,5 @@
       {"domain": "str", "alias": "str"}
     ],
     "seconds": "int"
-  },
-  "image": "smartonehome/{arch}-addon-smartonedns"
+  }
 }
