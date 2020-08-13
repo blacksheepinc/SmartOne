@@ -36,5 +36,5 @@
     ],
     "seconds": "int"
   },
-  "image": "smartone/{arch}-addon-smartonedns"
+  "image": "smartonehome/{arch}-addon-smartonedns"
 }
