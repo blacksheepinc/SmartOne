@@ -1,6 +1,6 @@
 {
   "name": "SmartOneDNS",
-  "version": "0.1",
+  "version": "0.2",
   "slug": "smartonedns",
   "description": "SmartOneDNS service with Let's Encrypt support",
   "url": "https://github.com/blacksheepinc/SmartOne/edit/master/smartonedns",
@@ -15,8 +15,6 @@
       "keyfile": "privkey.pem"
     },
     "token": null,
-	"login": null,
-	"password": null,
     "domains": [null],
     "aliases": [],
     "seconds": 300
