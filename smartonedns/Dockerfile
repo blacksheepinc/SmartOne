@@ -11,4 +11,5 @@ RUN apk add --no-cache openssl \
 # Copy data
 COPY data/*.sh /
 RUN chmod a+x /run.sh
+RUN chmod a+x /hook.sh
 CMD [ "/run.sh" ]
