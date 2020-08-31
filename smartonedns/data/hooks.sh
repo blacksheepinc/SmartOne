@@ -30,8 +30,8 @@ deploy_challenge() {
     #   validation, this is what you want to put in the _acme-challenge
     #   TXT record. For HTTP validation it is the value that is expected
     #   be found in the $TOKEN_FILENAME file.
-
-    curl -s "https://www.duckdns.org/update?domains=$ALIAS&token=$SYS_TOKEN&txt=$TOKEN_VALUE"
+    curl "https://dyn.dns.he.net/nic/update?hostname=$ALIAS&password=$SYS_TOKEN&txt=$TOKEN_VALUE"
+    #curl -s "https://www.duckdns.org/update?domains=$ALIAS&token=$SYS_TOKEN&txt=$TOKEN_VALUE"
 }
 
 clean_challenge() {
@@ -44,7 +44,7 @@ clean_challenge() {
     #
     # The parameters are the same as for deploy_challenge.
 
-    curl -s "https://www.duckdns.org/update?domains=$ALIAS&token=$SYS_TOKEN&txt=removed&clear=true"
+    #curl -s "https://www.duckdns.org/update?domains=$ALIAS&token=$SYS_TOKEN&txt=removed&clear=true"
 }
 
 deploy_cert() {
