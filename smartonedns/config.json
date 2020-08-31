@@ -1,6 +1,6 @@
 {
   "name": "SmartOneDNS",
-  "version": "0.4",
+  "version": "0.4a",
   "slug": "smartonedns",
   "description": "SmartOneDNS service with Let's Encrypt support",
   "url": "https://github.com/blacksheepinc/SmartOne/edit/master/smartonedns",
